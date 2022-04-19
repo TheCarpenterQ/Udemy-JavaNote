@@ -1,20 +1,23 @@
 public class Main {
+    
     public static void main(String[] args) {
+        
         //Single precision occupies 32 bits
         //Double precision occupies 64 bits
+        
         float myMinFloatValue = Float.MIN_VALUE;
         float myMaxFloatValue = Float.MAX_VALUE;
         System.out.println("Float minimum value = " + myMinFloatValue);
         System.out.println("Float maximum value = " + myMaxFloatValue);
 
-        double myMinDoubleValue = Double.MIN_VALUE;  //Double faster than Float
+        double myMinDoubleValue = Double.MIN_VALUE;  //Double runs faster than Float
         double myMaxDoubleValue = Double.MAX_VALUE;
         System.out.println("Double minimum value = " + myMinDoubleValue);
         System.out.println("Double maximum value = " + myMaxDoubleValue);
 
         int myIntValue = 5 / 2;
         int myIntValue2 = 5 / 3;
-        float myFloatValue1 = 5.25f;  //"f"make it clearer
+        float myFloatValue1 = 5.25f;  //"f" make it clearer
         float myFloatValue2 = (float) 5.25;  //if remove the "f" and it assumed to be a double,then require a float:need to use a cast
         float myFloatValue3 = 5f;
         float myFloatValue4 = 5f / 2;
