@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int myValue = 10000;  //1int occupies 32bit
+        int myValue = 10000;  //1int occupies 32bits
 
         int myMinIntValue = Integer.MIN_VALUE;
         int myMaxIntValue = Integer.MAX_VALUE;
@@ -11,22 +11,22 @@ public class Main {
 
         int myMaxIntTest = 2147483647;
 
-        byte myMinByteValue = Byte.MIN_VALUE;  //1byte occupies 8bit
+        byte myMinByteValue = Byte.MIN_VALUE;  //1byte occupies 8bits
         byte myMaxByteValue = Byte.MAX_VALUE;
         System.out.println("Byte Minimum Value = " + myMinByteValue);
         System.out.println("Byte Maximum Value = " + myMaxByteValue);
 
-        Short myMinShortValue = Short.MIN_VALUE;  //1short occupies 16bit
+        Short myMinShortValue = Short.MIN_VALUE;  //1short occupies 16bits
         Short myMaxShortValue = Short.MAX_VALUE;
         System.out.println("Short Minimum Value = " + myMinShortValue);
         System.out.println("Short Maximum Value = " + myMaxShortValue);
 
-        long myLongValue = 100L;  //1Long occupies 64bit
+        long myLongValue = 100L;  //1Long occupies 64bits
         Long myMinLongValue = Long.MIN_VALUE;
         Long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
-        long bigLongLiteralValue = 2_147_483_647_234L;  //with L on the end,then treat it as a Long
+        long bigLongLiteralValue = 2_147_483_647_234L;  //with L on the end,so that treat it as a Long
         System.out.println(bigLongLiteralValue);
 
         short bigShortLiteralValue = 32767;
