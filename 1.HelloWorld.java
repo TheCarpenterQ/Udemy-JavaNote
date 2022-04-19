@@ -4,11 +4,11 @@ public class Hello {
 
         System.out.println("Hello World");
 
-        int myFirstNumber = (10 + 5) + (2 * 10);  //声明int类型(primitive data types)
+        int myFirstNumber = (10 + 5) + (2 * 10);  //primitive data types:int
         int mySecondNumber = 12;
         int myThirdNumber = myFirstNumber * 2;
         int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
-        System.out.println(myTotal);  //sout是System.out.println()的快捷写法
+        System.out.println(myTotal);  //the shortcut:sout
         int myLastOne = 1000 - myTotal;
         System.out.println(myLastOne);
     }
